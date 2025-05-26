@@ -11,7 +11,6 @@ while True:
         foods.append(food)
         prices.append(price)
         
-
 print("---------------Your Cart---------------")
 
 for i in range(len(foods)):
