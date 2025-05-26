@@ -73,9 +73,9 @@ print(fruits)
 # Once a tuple is created, its contents cannot be modified, whereas lists are mutable,
 # allowing for changes like adding or removing elements
 
-fruits = ("apple","kiwi","coconut","coconut","lime")
+fruits = (("apple","kiwi","coconut","coconut","lime"),("apple","banana","coconut","coconut","lime"))
 print(fruits)
-
+print(fruits[1])
 #Not many methods
-print(fruits.count("coconut"))
-print(fruits.index("coconut"))
+#print(fruits.count("coconut"))
+#print(fruits.index("coconut"))
